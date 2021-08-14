@@ -121,4 +121,330 @@ piano.addEventListener('mouseout', event => {
 
 
 
+/*
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
 
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+window.addEventListener("keydown", keyboardSound);
+window.addEventListener("keydown", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.add("piano-key-active");
+        key.classList.add("piano-key-active-pseudo");
+    }
+});
+window.addEventListener("keyup", event => {
+    const key = document.querySelector(`.piano-key[data-key="${event.keyCode}"]`);
+    if (!key) return false;
+    if (key.classList.contains("piano-key")) {
+        key.classList.remove("piano-key-active");
+        key.classList.remove("piano-key-active-pseudo");
+    }
+});
+
+
+
+function keyboardSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    if (!audio) return false;
+    if (e.repeat) return false;
+    audio.currentTime = 0;
+    audio.play();
+}
+
+*/
